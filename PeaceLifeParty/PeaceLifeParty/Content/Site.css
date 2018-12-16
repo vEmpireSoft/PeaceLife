@@ -1,0 +1,152 @@
+﻿/*body {
+    padding-top: 50px;
+    padding-bottom: 20px;
+}*/
+
+/* Set padding to keep content from hitting the edges */
+.body-content {
+    padding-left: 15px;
+    padding-right: 15px;
+    box-shadow: 5px 10px 8px 10px #888888;
+    border: 1px solid;
+    padding: 10px;
+    background-color: #ffffff;
+    min-height:800px;
+}
+.image-content {
+    padding-left: 15px;
+    padding-right: 15px;
+    box-shadow: 2px 2px 2px 2px #888888;
+    border: 1px solid;
+    padding: 10px;
+    background-color: #ffffff;
+}
+/* Override the default bootstrap behavior where horizontal description lists 
+   will truncate terms that are too long to fit in the left column 
+*/
+.dl-horizontal dt {
+    white-space: normal;
+}
+
+/* Set width on the form input elements since they're 100% wide by default */
+input,
+select,
+textarea {
+    max-width: 280px;
+}
+
+html {
+    font-family: "Whitney SSm A", "Whitney SSm B", "Lato", "Lucida Grande", "Lucida Sans Unicode", Tahoma, Sans-Serif;
+    font-weight: 400;
+    line-height: 1.5;
+}
+
+body {
+    font: 400 15px Lato, sans-serif;
+    line-height: 1.8;
+    color: #2f2f2f;
+    background-color: #a9a9a9;
+    font-family: "Whitney SSm A", "Whitney SSm B", "Lato", "Lucida Grande", "Lucida Sans Unicode", Tahoma, Sans-Serif;
+}
+
+p {
+    font-size: 16px;
+}
+
+h2 {
+    font-size: 1.8em;
+    text-transform: uppercase;
+    color: #0e597c;
+    font-weight: 600;
+    margin-bottom: 5px;
+}
+
+h1 {
+    font-size: 1.8em;
+    text-transform: uppercase;
+    color: #0e597c;
+    font-weight: 600;
+    margin-bottom: 5px;
+    font-family: Montserrat, sans-serif;
+}
+
+.margin {
+    margin-bottom: 45px;
+}
+
+.bg-1 {
+    background-color: #1abc9c; /* Green */
+    color: #ffffff;
+}
+
+.bg-2 {
+    background-color: #474e5d; /* Dark Blue */
+    color: #ffffff;
+}
+
+.bg-3 {
+    background-color: #ffffff; /* White */
+    color: #555555;
+}
+
+.bg-4 {
+    background-color: #2f2f2f; /* Black Gray */
+    color: #fff;
+}
+
+.bg-5 {
+    background-color: #31618f; /* Black Gray */
+    color: #fff;
+}
+
+.bg-6 {
+    background-color: #70483c; /* Black Gray */
+    color: #fff;
+}
+
+.container-fluid {
+    padding: 60px 50px;
+}
+
+.jumbotron {
+    background-color: #1c4f9c; /*#4c94d9*/
+    color: #fff;
+    margin: 0px;
+    font-family: Montserrat, sans-serif;
+}
+
+.wrapper2 {
+    max-width: 800px;
+    float: none;
+    margin: 0 auto;
+    height: 150px;
+}
+
+
+/*logo*/
+.logo-small {
+    color: #f4511e;
+    font-size: 50px;
+}
+
+.logo {
+    color: #f4511e;
+    font-size: 200px;
+}
+
+.grad {
+    background: linear-gradient( #4c94d9 84%, #671d07 30% );
+}
+
+
+/*Comments*/
+.widget .panel-body { padding:0px; }
+.widget .list-group { margin-bottom: 0; }
+.widget .panel-title { display:inline }
+.widget .label-info { float: right; }
+.widget li.list-group-item {border-radius: 0;border: 0;border-top: 1px solid #ddd;}
+.widget li.list-group-item:hover { background-color: rgba(86,61,124,.1); }
+.widget .mic-info { color: #666666;font-size: 11px; }
+.widget .action { margin-top:5px; }
+.widget .comment-text { font-size: 12px; }
+.widget .btn-block { border-top-left-radius:0px;border-top-right-radius:0px; }
