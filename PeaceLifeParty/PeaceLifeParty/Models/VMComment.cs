@@ -7,5 +7,8 @@ namespace PeaceLifeParty.Models
 {
     public class VMComment
     {
+        public string Comment { get; set; }
+        public string MediaURL { get; set; }
+        public string CommentedBy { get; set; }
     }
 }
