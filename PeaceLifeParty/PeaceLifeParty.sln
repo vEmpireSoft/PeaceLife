@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2013
 VisualStudioVersion = 12.0.31101.0
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PeaceLifeParty", "PeaceLifeParty\PeaceLifeParty.csproj", "{E1662B78-C7E3-436C-80DD-26627E01A7FC}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "vEmpireSoft.PeaceLifeParty.Web", "PeaceLifeParty\vEmpireSoft.PeaceLifeParty.Web.csproj", "{E1662B78-C7E3-436C-80DD-26627E01A7FC}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "vEmpireSoft.PPL.Data", "vEmpireSoft.PPL.Data\vEmpireSoft.PPL.Data.csproj", "{98B56FFE-1D65-4518-AFE8-A433323D920B}"
 EndProject
