@@ -1,0 +1,5 @@
+C:\Drive D\vEmpire\Source\PPL\PeaceLifeParty\vEmpireSoft.PPL.Service\bin\Debug\vEmpireSoft.PPL.Service.dll
+C:\Drive D\vEmpire\Source\PPL\PeaceLifeParty\vEmpireSoft.PPL.Service\bin\Debug\vEmpireSoft.PPL.Service.pdb
+C:\Drive D\vEmpire\Source\PPL\PeaceLifeParty\vEmpireSoft.PPL.Service\obj\Debug\vEmpireSoft.PPL.Service.csprojResolveAssemblyReference.cache
+C:\Drive D\vEmpire\Source\PPL\PeaceLifeParty\vEmpireSoft.PPL.Service\obj\Debug\vEmpireSoft.PPL.Service.dll
+C:\Drive D\vEmpire\Source\PPL\PeaceLifeParty\vEmpireSoft.PPL.Service\obj\Debug\vEmpireSoft.PPL.Service.pdb
