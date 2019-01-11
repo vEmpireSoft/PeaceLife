@@ -1,0 +1,9 @@
+C:\Drive D\vEmpire\Source\PPL\PeaceLifeParty\vEmpireSoft.PPL.Data\bin\Release\vEmpireSoft.PPL.Data.dll.config
+C:\Drive D\vEmpire\Source\PPL\PeaceLifeParty\vEmpireSoft.PPL.Data\bin\Release\vEmpireSoft.PPL.Data.dll
+C:\Drive D\vEmpire\Source\PPL\PeaceLifeParty\vEmpireSoft.PPL.Data\bin\Release\vEmpireSoft.PPL.Data.pdb
+C:\Drive D\vEmpire\Source\PPL\PeaceLifeParty\vEmpireSoft.PPL.Data\bin\Release\EntityFramework.dll
+C:\Drive D\vEmpire\Source\PPL\PeaceLifeParty\vEmpireSoft.PPL.Data\bin\Release\EntityFramework.SqlServer.dll
+C:\Drive D\vEmpire\Source\PPL\PeaceLifeParty\vEmpireSoft.PPL.Data\bin\Release\EntityFramework.xml
+C:\Drive D\vEmpire\Source\PPL\PeaceLifeParty\vEmpireSoft.PPL.Data\bin\Release\EntityFramework.SqlServer.xml
+C:\Drive D\vEmpire\Source\PPL\PeaceLifeParty\vEmpireSoft.PPL.Data\obj\Release\vEmpireSoft.PPL.Data.dll
+C:\Drive D\vEmpire\Source\PPL\PeaceLifeParty\vEmpireSoft.PPL.Data\obj\Release\vEmpireSoft.PPL.Data.pdb
