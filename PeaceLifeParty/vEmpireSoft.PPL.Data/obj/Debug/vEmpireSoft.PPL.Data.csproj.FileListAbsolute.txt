@@ -1,5 +1,10 @@
+C:\Drive D\vEmpire\Source\PPL\PeaceLifeParty\vEmpireSoft.PPL.Data\bin\Debug\vEmpireSoft.PPL.Data.dll.config
 C:\Drive D\vEmpire\Source\PPL\PeaceLifeParty\vEmpireSoft.PPL.Data\bin\Debug\vEmpireSoft.PPL.Data.dll
 C:\Drive D\vEmpire\Source\PPL\PeaceLifeParty\vEmpireSoft.PPL.Data\bin\Debug\vEmpireSoft.PPL.Data.pdb
-C:\Drive D\vEmpire\Source\PPL\PeaceLifeParty\vEmpireSoft.PPL.Data\obj\Debug\vEmpireSoft.PPL.Data.csprojResolveAssemblyReference.cache
+C:\Drive D\vEmpire\Source\PPL\PeaceLifeParty\vEmpireSoft.PPL.Data\bin\Debug\EntityFramework.dll
+C:\Drive D\vEmpire\Source\PPL\PeaceLifeParty\vEmpireSoft.PPL.Data\bin\Debug\EntityFramework.SqlServer.dll
+C:\Drive D\vEmpire\Source\PPL\PeaceLifeParty\vEmpireSoft.PPL.Data\bin\Debug\EntityFramework.xml
+C:\Drive D\vEmpire\Source\PPL\PeaceLifeParty\vEmpireSoft.PPL.Data\bin\Debug\EntityFramework.SqlServer.xml
 C:\Drive D\vEmpire\Source\PPL\PeaceLifeParty\vEmpireSoft.PPL.Data\obj\Debug\vEmpireSoft.PPL.Data.dll
 C:\Drive D\vEmpire\Source\PPL\PeaceLifeParty\vEmpireSoft.PPL.Data\obj\Debug\vEmpireSoft.PPL.Data.pdb
+C:\Drive D\vEmpire\Source\PPL\PeaceLifeParty\vEmpireSoft.PPL.Data\obj\Debug\vEmpireSoft.PPL.Data.csprojResolveAssemblyReference.cache

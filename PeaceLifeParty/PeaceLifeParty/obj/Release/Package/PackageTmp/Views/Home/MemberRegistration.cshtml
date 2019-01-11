@@ -1,82 +1,154 @@
-﻿
+﻿@model PeaceLifeParty.Models.VMMember
 @{
     ViewBag.Title = "Member";
     Layout = "~/Views/Shared/_Layout.cshtml";
+}
+@{var listItems = new List<System.Web.UI.WebControls.ListItem>
+    {
+          new System.Web.UI.WebControls.ListItem { Text = "Mr", Value="Mr" },
+          new System.Web.UI.WebControls.ListItem { Text = "Miss", Value="Miss" },
+          new System.Web.UI.WebControls.ListItem { Text = "Mrs", Value="Mrs" },
+                    new System.Web.UI.WebControls.ListItem { Text = "Dr", Value="Dr" },
+                    new System.Web.UI.WebControls.ListItem { Text = "Rev", Value="Rev" }
+    };
 }
 
 <section class="testimonial py-5" id="testimonial">
     <div class="container">
         <div class="row ">
-            <div class="col-md-4 bg-primary text-white text-center well" >
+            <div class="col-md-4 text-white text-center well">
                 <div>
                     <div class="card-body ">
                         <img src="~/Resources/registration_bg.svg">
-                        <h2>Registration<i class="fas fa-sign-in"></i></h2>
+                        <h2>Registration<i class="fas fa-h"></i></h2>
                         <p>
 
                         </p>
                     </div>
                 </div>
             </div>
-            <div class="col-md-8 border">
+            <div class="col-md-8 ">
 
-                <form>
+                @using (Html.BeginForm("MemberRegistration", "Home", new { ReturnUrl = ViewBag.ReturnUrl }, FormMethod.Post, new { enctype = "multipart/form-data", @class = "form-signin" ,id="MemReg"}))
+                {
+                    @*@Html.AntiForgeryToken()*@
                     <div class="col-sm-12 well">
+                        <div class="form-group">
+                            <label>Title</label>
+                            @Html.DropDownList("Title", new SelectList(listItems, "Value", "Text"), new { @class = "form-control", @required = true })
+                        </div>
                         <div class="row">
                             <div class="col-sm-6 form-group">
                                 <label>First Name</label>
-                                <input type="text" placeholder="Enter First Name Here.." class="form-control">
+                                @Html.TextBoxFor(m => m.FirstName, new { @required = "required autofocus", @placeholder = "First Name", @class = "form-control" })
                             </div>
                             <div class="col-sm-6 form-group">
-                                <label>Last Name</label>
-                                <input type="text" placeholder="Enter Last Name Here.." class="form-control">
+                                <label>Surname / Last Name</label>
+                                @Html.TextBoxFor(m => m.Surname, new { @required = "required autofocus", @placeholder = "Last Name", @class = "form-control" })
                             </div>
-                        </div>
-                        <div class="form-group">
-                            <label>Address</label>
-                            <textarea placeholder="Enter Address Here.." rows="3" cols="12" class="form-control"></textarea>
                         </div>
                         <div class="row">
                             <div class="col-sm-4 form-group">
-                                <label>City</label>
-                                <input type="text" placeholder="Enter City Name Here.." class="form-control">
+                                <label>Address</label>
+                                @Html.TextBoxFor(m => m.AddressLine1, new { @required = "required autofocus", @placeholder = "Address", @class = "form-control" })
+                            </div>
+                            <div class="col-sm-4 form-group">
+                                <span> </span><br />
+                                @Html.TextBoxFor(m => m.AddressLine2, new {  @placeholder = "Address Line 2", @class = "form-control" })
+                            </div>
+                            <div class="col-sm-4 form-group">
+                                <span></span><br />
+                                @Html.TextBoxFor(m => m.AddressLine3, new {  @placeholder = "Address Line 3", @class = "form-control" })
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-sm-4 form-group">
+                                <label>Suburb</label>
+                                @Html.TextBoxFor(m => m.Suburb, new { @required = "required autofocus", @placeholder = "Suburb", @class = "form-control" })
                             </div>
                             <div class="col-sm-4 form-group">
                                 <label>State</label>
-                                <input type="text" placeholder="Enter State Name Here.." class="form-control">
+                                @Html.TextBoxFor(m => m.State, new { @required = "required autofocus", @placeholder = "State", @class = "form-control" })
                             </div>
                             <div class="col-sm-4 form-group">
-                                <label>Zip</label>
-                                <input type="text" placeholder="Enter Zip Code Here.." class="form-control">
+                                <label>Post Code</label>
+                                @Html.TextBoxFor(m => m.PostCode, new { @required = "required autofocus", @placeholder = "Post Code", @class = "form-control" })
                             </div>
                         </div>
-                        @*<div class="row">
+                        <div class="row">
+                            <div class="col-sm-6">
+                                <label>Phone Number - Home</label>
+                                @Html.TextBoxFor(m => m.HomePhoneNumber, new {  @placeholder = "Phone Number - Home", @class = "form-control" })
+                            </div>
                             <div class="col-sm-6 form-group">
-                                <label>Title</label>
-                                <input type="text" placeholder="Enter Designation Here.." class="form-control">
+                                <label>Mobile Number</label>
+                                @Html.TextBoxFor(m => m.MobileNumber, new { @required = "required autofocus", @placeholder = "Mobile Number", @class = "form-control" })
                             </div>
-                            <div class="col-sm-6 form-group">
-                                <label>Company</label>
-                                <input type="text" placeholder="Enter Company Name Here.." class="form-control">
-                            </div>
-                        </div>*@
-                        <div class="form-group">
-                            <label>Phone Number</label>
-                            <input type="text" placeholder="Enter Phone Number Here.." class="form-control">
                         </div>
                         <div class="form-group">
-                            <label>Email Address</label>
-                            <input type="text" placeholder="Enter Email Address Here.." class="form-control">
+                            <label>Email Address (Optional)</label>
+                            @Html.TextBoxFor(m => m.Email, new {  @placeholder = "Email Address", @class = "form-control" })
                         </div>
-                        <div class="form-group">
-                            <label>Website</label>
-                            <input type="text" placeholder="Enter Website Name Here.." class="form-control">
-                        </div>
-                        <button type="button" class="btn-danger btn-lg text-center">Submit</button>
+                        <button id="submit" type="submit" class="btn-danger btn-lg text-center" >Submit</button>
+
                     </div>
-                </form> 
+                }
+
+       
             </div>
         </div>
     </div>
 </section>
+<!-- Modal -->
+<div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLongTitle">Welcome to PPL</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                    <p class="text-primary">Thank you for joining Peace Life Party!!!</p>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+</div>
 
+@section scripts {
+    <script>
+
+        $(document).ready(function () {
+            $("#MemReg").on('submit', function (e) {
+                e.preventDefault();
+                var modelObj = $(this)[0];
+                var data = '@Model';
+                var data2 = $('#MemReg').serialize();
+                var frm = $('#MemReg').serializeArray();
+                e.preventDefault();
+
+                console.log(modelObj);
+                $.ajax({
+                    type: "POST",
+                    url: '@Url.Action("MemberRegistration", "Home")',
+                    // dataType: 'json',
+                    //data: { model: @Model},
+                    data: data2,// new FormData(this),
+                    success: function (response) {
+                        if (response.success) {
+                            $(".modal-body").text($("FirstName").val())
+                            $('#exampleModalCenter').modal('show');
+                        }
+                        else {
+
+                        }
+                    }
+                });
+            });
+        });
+    </script>
+}

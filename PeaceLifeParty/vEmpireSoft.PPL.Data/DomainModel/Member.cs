@@ -14,7 +14,6 @@ namespace vEmpireSoft.PPL.Data.DomainModel
         [Key]
         public int MemberId { get; set; }
         [Column(TypeName = "char")]
-        [Required]
         [MaxLength(10)]
         [Required]
         public string Title { get; set; }
@@ -28,10 +27,8 @@ namespace vEmpireSoft.PPL.Data.DomainModel
         [Required]
         public string AddressLine1 { get; set; }
         [MaxLength(50)]
-        [Required]
         public string AddressLine2 { get; set; }
         [MaxLength(50)]
-        [Required]
         public string AddressLine3 { get; set; }
         [MaxLength(50)]
         [Required]
@@ -51,7 +48,6 @@ namespace vEmpireSoft.PPL.Data.DomainModel
         [MaxLength(20)]
         public string FaxNumber { get; set; }
         [MaxLength(50)]
-        [Required]
         public string Email { get; set; }
         [Required]
         public DateTime RegisteredDate { get; set; }

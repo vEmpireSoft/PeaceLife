@@ -19,5 +19,8 @@ namespace vEmpireSoft.PPL.Data.DomainModel
         [MaxLength(8000)]
         [Required]
         public string Comments { get; set; }
+        [MaxLength(50)]
+        [Required]
+        public string Email { get; set; }
     }
 }

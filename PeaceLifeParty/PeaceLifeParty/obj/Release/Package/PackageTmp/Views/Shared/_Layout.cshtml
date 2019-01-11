@@ -2,7 +2,7 @@
 <html>
 <head>
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
-    <link rel="stylesheet" href="font-awesome-animation.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     @Styles.Render("~/Content/css")
@@ -14,15 +14,15 @@
 <body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="60">
     <header class="masthead container-fluid" style="background-color: #3592e1;">
         <div class="jumbotron " style="padding:0px">
-            <div class="col-lg-2 text-right">
+            <div class="col-lg-2 col-md-2 col-sm-2 col-xs-2 hidden-sm hidden-xs text-right">
                 <img src="~/Resources/PeaceLifeLogo2.jpg" class="img-circle img-responsive image-content" style="height:200px;width:200px;margin:0px">
             </div>
-            <div class="col-lg-8 text-center">
+            <div class="col-lg-8 col-md-8 col-sm-8 col-xs-8 text-center">
                 <h2 style="color:#671d07;zoom:150%">Peace Life Party</h2>
                 <h2 class="text-center img-circle" style="color:#671d07;zoom:150%;margin-top:0px">(PLP)</h2>
             </div>
-            <div class="col-lg-2 text-right ">
-                <img src="~/Resources/YoungFamily.jpeg" class="img-circle image-content" style="height:200px;width:200px;margin:0px">
+            <div class="col-lg-2 col-md-2 col-sm-2 col-xs-2 hidden-sm hidden-xs text-right ">
+                <img src="~/Resources/YoungFamily.jpeg" class="img-circle img-responsive image-content" style="height:200px;width:200px;margin:0px">
             </div>
         </div>
     </header>
@@ -32,57 +32,59 @@
         <div class="navbar navbar-inverse navbar-static-top">
             <div class="container">
                 <!-- .btn-navbar is used as the toggle for collapsed navbar content -->
-                <a  href="@Url.Action("Index", "Home")" class="navbar-brand"><i class="fas fa-home faa-pulse animated"></i>Home</a>
-                <a class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </a>
-                <div class="navbar-collapse collapse">
-                    <ul class="nav navbar-nav navbar-right">
-                        <li class="dropdown mega-dropdown">
-                            <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fas fa-book-open fa-2x"></i>Policies <span class="caret"></span></a>
-                            <ul class="dropdown-menu mega-dropdown-menu">
-                                <li class="col-sm-4">
-                                    <ul>
-                                        <li><a class="dropdown-item dropdown-header" href="@Url.Action("Youth", "Home")">Youth</a> </li>
-                                        <li><a class="dropdown-item dropdown-header" href="@Url.Action("Employment", "Home")">Employment</a> </li>
-                                        <li><a class="dropdown-item dropdown-header" href="@Url.Action("Manufacturing", "Home")">Manufacturing</a> </li>
-                                        <li><a class="dropdown-item dropdown-header" href="@Url.Action("Economy", "Home")">Economy</a> </li>
-                                        <li><a class="dropdown-item dropdown-header" href="@Url.Action("SmallBusiness", "Home")"><i class="fas fa-user-tie"></i>Small Business</a> </li>
-                                        <li><a class="dropdown-item dropdown-header" href="@Url.Action("Education", "Home")"><i class="fas fa-graduation-cap"></i>Education</a> </li>
-                                    </ul>
-                                </li>
-                                <li class="col-sm-4">
-                                    <ul>
-                                        <li><a class="dropdown-item dropdown-header" href="@Url.Action("Health", "Home")"><i class="fas fa-briefcase-medical"></i>Health</a> </li>
-                                        <li><a class="dropdown-item dropdown-header" href="@Url.Action("SocialPayments", "Home")">Social Payments</a> </li>
-                                        <li><a class="dropdown-item dropdown-header" href="@Url.Action("Environment", "Home")">Environment</a> </li>
-                                        <li><a class="dropdown-item dropdown-header" href="@Url.Action("Crime", "Home")">Crime</a> </li>
-                                        <li><a class="dropdown-item dropdown-header" href="@Url.Action("Criminals", "Home")">Criminals</a> </li>
-                                        <li><a class="dropdown-item dropdown-header" href="@Url.Action("Social", "Home")">Social</a> </li>
-                                    </ul>
-                                </li>
-                                <li class="col-sm-4">
-                                    <ul>
-                                        <li><a class="dropdown-item dropdown-header" href="@Url.Action("BankUtilitiesPublicTransport", "Home")">Banks Utilities and Public Transport</a> </li>
-                                        <li><a class="dropdown-item dropdown-header" href="@Url.Action("SpecialMentionEnergy", "Home")">Special Mention Energy</a> </li>
-                                        <li><a class="dropdown-item dropdown-header" href="@Url.Action("Families", "Home")">Families</a> </li>
-                                        <li><a class="dropdown-item dropdown-header" href="@Url.Action("Aborigines", "Home")">Aborigines</a> </li>
-                                        <li><a class="dropdown-item dropdown-header" href="@Url.Action("Government", "Home")">Government</a></li>
-                                    </ul>
-                                </li>
-                            </ul>
-                        </li>
-                        <li><a href="@Url.Action("OurIdeas", "Home")"><i class="fas fa-address-card fa-2x"></i>Contact</a></li>
-                        <li><a href="@Url.Action("MemberRegistration", "Home")"><i class="fas fa-handshake fa-2x"></i>Join PLP</a></li>
-                        <li><a href="@Url.Action("Donate", "Home")"><i class="fas fa-donate fa-2x"></i>Donate</a></li>
-                        <li><a href="@Url.Action("OurIdeas", "Home")"><i class="fas fa-bolt fa-2x"></i>Our New Ideas</a></li>
-                        <li><a href="@Url.Action("Comments", "Home")"><i class="fas fa-comment fa-2x"></i>Comments</a></li>
-                        <li><a href="@Url.Action("Education", "Home")"><i class="fas fa-users fa-2x"></i>About</a></li>
-                    </ul>
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".navbar-collapse">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a href="@Url.Action("Index", "Home")" class="navbar-brand"><i class="fas fa-home faa-pulse animated"></i>Home</a>
+                    </div>
+                    <div class="navbar-collapse collapse">
+                        <ul class="nav navbar-nav navbar-right">
+                            <li class="dropdown mega-dropdown">
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fas fa-book-open fa-2x"></i>Policies <span class="caret"></span></a>
+                                <ul class="dropdown-menu mega-dropdown-menu">
+                                    <li class="col-md-4 col-lg-4 col-sm-4">
+                                        <ul>
+                                            <li><a class="dropdown-item dropdown-header" href="@Url.Action("Youth", "Home")">Youth</a> </li>
+                                            <li><a class="dropdown-item dropdown-header" href="@Url.Action("Employment", "Home")">Employment</a> </li>
+                                            <li><a class="dropdown-item dropdown-header" href="@Url.Action("Manufacturing", "Home")">Manufacturing</a> </li>
+                                            <li><a class="dropdown-item dropdown-header" href="@Url.Action("Economy", "Home")">Economy</a> </li>
+                                            <li><a class="dropdown-item dropdown-header" href="@Url.Action("SmallBusiness", "Home")"><i class="fas fa-user-tie"></i>Small Business</a> </li>
+                                            <li><a class="dropdown-item dropdown-header" href="@Url.Action("Education", "Home")"><i class="fas fa-graduation-cap"></i>Education</a> </li>
+                                        </ul>
+                                    </li>
+                                    <li class="col-sm-4">
+                                        <ul>
+                                            <li><a class="dropdown-item dropdown-header" href="@Url.Action("Health", "Home")"><i class="fas fa-briefcase-medical"></i>Health</a> </li>
+                                            <li><a class="dropdown-item dropdown-header" href="@Url.Action("SocialPayments", "Home")">Social Payments</a> </li>
+                                            <li><a class="dropdown-item dropdown-header" href="@Url.Action("Environment", "Home")">Environment</a> </li>
+                                            <li><a class="dropdown-item dropdown-header" href="@Url.Action("Crime", "Home")">Crime</a> </li>
+                                            <li><a class="dropdown-item dropdown-header" href="@Url.Action("Criminals", "Home")">Criminals</a> </li>
+                                            <li><a class="dropdown-item dropdown-header" href="@Url.Action("Social", "Home")">Social</a> </li>
+                                        </ul>
+                                    </li>
+                                    <li class="col-sm-4">
+                                        <ul>
+                                            <li><a class="dropdown-item dropdown-header" href="@Url.Action("BankUtilitiesPublicTransport", "Home")">Banks Utilities and Public Transport</a> </li>
+                                            <li><a class="dropdown-item dropdown-header" href="@Url.Action("SpecialMentionEnergy", "Home")">Special Mention Energy</a> </li>
+                                            <li><a class="dropdown-item dropdown-header" href="@Url.Action("Families", "Home")">Families</a> </li>
+                                            <li><a class="dropdown-item dropdown-header" href="@Url.Action("Aborigines", "Home")">Aborigines</a> </li>
+                                            <li><a class="dropdown-item dropdown-header" href="@Url.Action("Government", "Home")">Government</a></li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </li>
+                            @*<li><a href="@Url.Action("OurIdeas", "Home")"><i class="fas fa-address-card fa-2x"></i>Contact</a></li>*@
+                            <li><a href="@Url.Action("MemberRegistration", "Home")"><i class="fas fa-handshake fa-2x"></i>Join PLP</a></li>
+                            <li><a href="@Url.Action("Donate", "Home")"><i class="fas fa-donate fa-2x"></i>Donate</a></li>
+                            <li><a href="@Url.Action("OurIdeas", "Home")"><i class="fas fa-bolt fa-2x"></i>Our New Ideas</a></li>
+                            <li><a href="@Url.Action("Comments", "Home")"><i class="fas fa-comment fa-2x"></i>Comments</a></li>
+                            <li><a href="@Url.Action("Education", "Home")"><i class="fas fa-users fa-2x"></i>About</a></li>
+                        </ul>
+                    </div>
                 </div>
-            </div>
         </div><!-- /.navbar -->
     </div>
     <div class="container body-content">
@@ -96,5 +98,6 @@
         @Scripts.Render("~/bundles/jquery")
         @Scripts.Render("~/bundles/bootstrap")
         @RenderSection("scripts", required: false)
+
 </body>
 </html>

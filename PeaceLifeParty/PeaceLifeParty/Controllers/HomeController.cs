@@ -1,13 +1,21 @@
-﻿using System;
+﻿using Newtonsoft.Json;
+using PeaceLifeParty.Models;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 using System.Web.Mvc;
+using vEmpireSoft.PPL.Service;
 
 namespace PeaceLifeParty.Controllers
 {
     public class HomeController : Controller
     {
+        private VMMember model;
+        public HomeController()
+        {
+            model = new VMMember();
+        }
         public ActionResult Index()
         {
             return View();
@@ -106,5 +114,28 @@ namespace PeaceLifeParty.Controllers
         {
             return View();
         }
+        public ActionResult Donate()
+        {
+            return View(model);
+        }
+        [HttpPost]
+        public ActionResult MemberRegistration( VMMember vmModel)
+        { 
+            // var DeserializedModel = JsonConvert.DeserializeObject<VMMember>(model);
+            //model.SaveEntity(model.Entity);
+            var result=false;
+            if (ModelState.IsValid)
+            {
+             result=   model.SaveEntity(vmModel);                
+            }
+            return Json (new{ success = true });
+        }
+        //[HttpPost]
+        //public ActionResult MemberRegistration(string modelObj)
+        //{
+        //    VMMember DeserializedModel = JsonConvert.DeserializeObject<VMMember>(modelObj);
+        //    model.SaveEntity(DeserializedModel);
+        //    return View();
+        //}
     }
 }

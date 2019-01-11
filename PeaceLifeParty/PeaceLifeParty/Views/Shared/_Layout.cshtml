@@ -76,7 +76,7 @@
                                     </li>
                                 </ul>
                             </li>
-                            <li><a href="@Url.Action("OurIdeas", "Home")"><i class="fas fa-address-card fa-2x"></i>Contact</a></li>
+                            @*<li><a href="@Url.Action("OurIdeas", "Home")"><i class="fas fa-address-card fa-2x"></i>Contact</a></li>*@
                             <li><a href="@Url.Action("MemberRegistration", "Home")"><i class="fas fa-handshake fa-2x"></i>Join PLP</a></li>
                             <li><a href="@Url.Action("Donate", "Home")"><i class="fas fa-donate fa-2x"></i>Donate</a></li>
                             <li><a href="@Url.Action("OurIdeas", "Home")"><i class="fas fa-bolt fa-2x"></i>Our New Ideas</a></li>
@@ -98,5 +98,6 @@
         @Scripts.Render("~/bundles/jquery")
         @Scripts.Render("~/bundles/bootstrap")
         @RenderSection("scripts", required: false)
+
 </body>
 </html>

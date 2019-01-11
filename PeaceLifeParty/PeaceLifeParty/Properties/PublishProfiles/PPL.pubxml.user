@@ -65,7 +65,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>11/11/2018 10:08:46</publishTime>
     </File>
     <File Include="bin/PeaceLifeParty.dll">
-      <publishTime>12/18/2018 22:59:04</publishTime>
+      <publishTime>01/01/0001 00:00:00</publishTime>
     </File>
     <File Include="bin/System.Web.Helpers.dll">
       <publishTime>11/11/2018 10:08:33</publishTime>
@@ -88,6 +88,12 @@ by editing this MSBuild file. In order to learn more about this please visit htt
     <File Include="bin/System.Web.WebPages.Razor.dll">
       <publishTime>11/11/2018 10:08:33</publishTime>
     </File>
+    <File Include="bin/vEmpireSoft.PPL.Data.dll">
+      <publishTime>01/06/2019 22:49:24</publishTime>
+    </File>
+    <File Include="bin/vEmpireSoft.PPL.Service.dll">
+      <publishTime>01/06/2019 22:49:25</publishTime>
+    </File>
     <File Include="bin/WebGrease.dll">
       <publishTime>11/11/2018 10:08:35</publishTime>
     </File>
@@ -101,7 +107,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>12/10/2018 23:09:11</publishTime>
     </File>
     <File Include="Content/Site.css">
-      <publishTime>12/11/2018 22:16:06</publishTime>
+      <publishTime>12/25/2018 11:21:04</publishTime>
     </File>
     <File Include="css/font-awesome.css">
       <publishTime>11/27/2018 23:17:01</publishTime>
@@ -125,7 +131,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>11/27/2018 23:17:01</publishTime>
     </File>
     <File Include="fonts/fontawesome-webfont.woff2">
-      <publishTime>11/27/2018 23:17:00</publishTime>
+      <publishTime>01/01/0001 00:00:00</publishTime>
     </File>
     <File Include="fonts/FontAwesome.otf">
       <publishTime>11/27/2018 23:17:01</publishTime>
@@ -187,6 +193,9 @@ by editing this MSBuild file. In order to learn more about this please visit htt
     <File Include="Scripts/jquery.validate.unobtrusive.min.js">
       <publishTime>11/11/2018 10:08:37</publishTime>
     </File>
+    <File Include="Scripts/MemberRegScript.js">
+      <publishTime>12/31/2018 02:40:44</publishTime>
+    </File>
     <File Include="Scripts/modernizr-2.6.2.js">
       <publishTime>11/11/2018 10:08:34</publishTime>
     </File>
@@ -197,10 +206,10 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>11/11/2018 10:08:36</publishTime>
     </File>
     <File Include="Scripts/SiteScript.js">
-      <publishTime>11/26/2018 22:58:41</publishTime>
+      <publishTime>12/31/2018 02:13:57</publishTime>
     </File>
     <File Include="Scripts/_references.js">
-      <publishTime>11/23/2018 18:52:28</publishTime>
+      <publishTime>12/31/2018 02:13:32</publishTime>
     </File>
     <File Include="Views/Account/ConfirmEmail.cshtml">
       <publishTime>11/11/2018 10:08:39</publishTime>
@@ -239,73 +248,76 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>11/11/2018 10:08:39</publishTime>
     </File>
     <File Include="Views/Home/Aborigines.cshtml">
-      <publishTime>11/17/2018 22:04:43</publishTime>
+      <publishTime>12/25/2018 12:50:53</publishTime>
     </File>
     <File Include="Views/Home/About.cshtml">
       <publishTime>11/11/2018 10:07:53</publishTime>
     </File>
     <File Include="Views/Home/BankUtilitiesPublicTransport.cshtml">
-      <publishTime>11/25/2018 00:00:03</publishTime>
+      <publishTime>12/25/2018 12:48:52</publishTime>
     </File>
     <File Include="Views/Home/Comments.cshtml">
-      <publishTime>12/11/2018 22:20:13</publishTime>
+      <publishTime>12/30/2018 11:11:56</publishTime>
     </File>
     <File Include="Views/Home/Contact.cshtml">
       <publishTime>11/11/2018 10:07:53</publishTime>
     </File>
     <File Include="Views/Home/Crime.cshtml">
-      <publishTime>11/17/2018 21:57:51</publishTime>
+      <publishTime>12/25/2018 12:43:14</publishTime>
     </File>
     <File Include="Views/Home/Criminals.cshtml">
-      <publishTime>12/16/2018 23:26:37</publishTime>
+      <publishTime>12/25/2018 12:56:57</publishTime>
+    </File>
+    <File Include="Views/Home/Donate.cshtml">
+      <publishTime>12/29/2018 22:48:28</publishTime>
     </File>
     <File Include="Views/Home/Economy.cshtml">
-      <publishTime>11/17/2018 21:48:54</publishTime>
+      <publishTime>12/25/2018 12:34:26</publishTime>
     </File>
     <File Include="Views/Home/Education.cshtml">
-      <publishTime>11/17/2018 21:51:46</publishTime>
+      <publishTime>12/25/2018 13:10:45</publishTime>
     </File>
     <File Include="Views/Home/Employment.cshtml">
-      <publishTime>11/17/2018 21:49:09</publishTime>
+      <publishTime>12/25/2018 10:58:16</publishTime>
     </File>
     <File Include="Views/Home/Environment.cshtml">
-      <publishTime>11/25/2018 11:11:22</publishTime>
+      <publishTime>12/25/2018 12:40:47</publishTime>
     </File>
     <File Include="Views/Home/Families.cshtml">
-      <publishTime>11/17/2018 22:02:02</publishTime>
+      <publishTime>12/25/2018 12:55:43</publishTime>
     </File>
     <File Include="Views/Home/Government.cshtml">
-      <publishTime>11/17/2018 22:05:29</publishTime>
+      <publishTime>12/25/2018 12:55:05</publishTime>
     </File>
     <File Include="Views/Home/Health.cshtml">
-      <publishTime>11/17/2018 21:51:39</publishTime>
+      <publishTime>12/25/2018 12:40:04</publishTime>
     </File>
     <File Include="Views/Home/Index.cshtml">
-      <publishTime>12/08/2018 12:51:58</publishTime>
+      <publishTime>01/02/2019 23:07:14</publishTime>
     </File>
     <File Include="Views/Home/Manufacturing.cshtml">
-      <publishTime>11/17/2018 21:46:32</publishTime>
+      <publishTime>12/25/2018 12:26:10</publishTime>
     </File>
     <File Include="Views/Home/MemberRegistration.cshtml">
-      <publishTime>12/16/2018 23:50:15</publishTime>
+      <publishTime>01/05/2019 11:29:22</publishTime>
     </File>
     <File Include="Views/Home/OurIdeas.cshtml">
-      <publishTime>11/17/2018 21:36:55</publishTime>
+      <publishTime>12/25/2018 10:39:47</publishTime>
     </File>
     <File Include="Views/Home/SmallBusiness.cshtml">
-      <publishTime>11/17/2018 21:49:58</publishTime>
+      <publishTime>12/25/2018 12:38:28</publishTime>
     </File>
     <File Include="Views/Home/Social.cshtml">
-      <publishTime>11/17/2018 21:59:36</publishTime>
+      <publishTime>12/25/2018 12:48:35</publishTime>
     </File>
     <File Include="Views/Home/SocialPayments.cshtml">
-      <publishTime>11/17/2018 21:52:39</publishTime>
+      <publishTime>12/25/2018 12:40:27</publishTime>
     </File>
     <File Include="Views/Home/SpecialMentionEnergy.cshtml">
       <publishTime>11/24/2018 23:55:40</publishTime>
     </File>
     <File Include="Views/Home/Youth.cshtml">
-      <publishTime>11/17/2018 21:39:41</publishTime>
+      <publishTime>01/03/2019 22:21:37</publishTime>
     </File>
     <File Include="Views/Manage/AddPhoneNumber.cshtml">
       <publishTime>11/11/2018 10:08:40</publishTime>
@@ -332,7 +344,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>11/11/2018 10:08:40</publishTime>
     </File>
     <File Include="Views/Shared/_Layout.cshtml">
-      <publishTime>12/10/2018 23:40:58</publishTime>
+      <publishTime>12/31/2018 10:33:30</publishTime>
     </File>
     <File Include="Views/Shared/_LoginPartial.cshtml">
       <publishTime>11/11/2018 10:08:40</publishTime>
@@ -344,7 +356,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>11/11/2018 10:07:53</publishTime>
     </File>
     <File Include="Web.config">
-      <publishTime>12/18/2018 22:59:14</publishTime>
+      <publishTime>01/06/2019 22:50:47</publishTime>
     </File>
   </ItemGroup>
 </Project>

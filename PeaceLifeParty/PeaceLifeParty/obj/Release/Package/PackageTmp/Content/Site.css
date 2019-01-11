@@ -36,7 +36,7 @@ textarea {
 }
 
 html {
-    font-family: "Whitney SSm A", "Whitney SSm B", "Lato", "Lucida Grande", "Lucida Sans Unicode", Tahoma, Sans-Serif;
+    font-family: "intro", "Helvetica Neue", "Helvetica", sans-serif;
     font-weight: 400;
     line-height: 1.5;
 }
@@ -46,7 +46,7 @@ body {
     line-height: 1.8;
     color: #2f2f2f;
     background-color: #a9a9a9;
-    font-family: "Whitney SSm A", "Whitney SSm B", "Lato", "Lucida Grande", "Lucida Sans Unicode", Tahoma, Sans-Serif;
+    font-family: "intro", "Helvetica Neue", "Helvetica", sans-serif;
 }
 
 p {
@@ -67,7 +67,7 @@ h1 {
     color: #0e597c;
     font-weight: 600;
     margin-bottom: 5px;
-    font-family: Montserrat, sans-serif;
+    font-family: "intro", "Helvetica Neue", "Helvetica", sans-serif;
 }
 
 .margin {

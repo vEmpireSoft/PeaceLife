@@ -24,6 +24,11 @@ namespace PeaceLifeParty
                       "~/Scripts/respond.js",
                       "~/Scripts/SiteScript.js"));
 
+            //Member Reg Script
+
+            bundles.Add(new ScriptBundle("~/bundles/MemberReg").Include(
+          "~/Scripts/MemberRegScript.js"));
+
             bundles.Add(new StyleBundle("~/Content/css").Include(
                       "~/Content/bootstrap.css",
                       "~/Content/site.css",
